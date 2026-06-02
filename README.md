@@ -10,11 +10,11 @@ Neural network models for generating four-part Bach-style chorales. Two approach
 | Task | Model | Test Perplexity | Notes |
 |------|-------|----------------|-------|
 | Unconditioned | Bigram Markov | 13.59 | Baseline — only models adjacent token pairs |
-| Unconditioned | LSTM | 1.68 | Captures long-range harmonic and melodic structure |
+| Unconditioned | LSTM | 1.87 | Captures long-range harmonic and melodic structure |
 | Harmonization | Frequency Lookup | 125.02 | Baseline — most common chord per soprano pitch |
 | Harmonization | BiLSTM | 5.76 | Bidirectional context produces coherent voice leading |
 
-The harmonizer achieves 40.9% exact pitch accuracy and 43.3% pitch-class accuracy across the three generated voices, with significantly fewer voice-leading violations (parallel fifths/octaves) than the frequency baseline.
+The harmonizer achieves 41.1% exact pitch accuracy and 43.4% pitch-class accuracy across the three generated voices, with significantly fewer voice-leading violations (parallel fifths/octaves) than the frequency baseline.
 
 ## Listen
 

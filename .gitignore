@@ -14,8 +14,13 @@ __pycache__/
 .vscode/
 .idea/
 
-# Claude
+# Local config
 .claude/
+
+# Drafts
+presentation_notes.md
+voiceover_script.md
+regen_midi.py
 
 # OS
 .DS_Store
